@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+/* menu */
+
+.containerNav {
+    width: 100%;    
+    background-color: white;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    z-index: 1;
+
+}
+
+ .menuBar{
+    width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+ }
+
+ .menuBar a {
+    text-decoration: none;
+    color: black;
+ }
+
+ .leftMenu{
+    font-size:26px ;
+       
+}
+
+.rightMenu a{
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+span {
+    color: #798fb6;
+    
+}
+
+
+/* end menu  */
+
+
+/* main */
+
+.containerMain {
+
+    margin: 0 auto;
+
+}
+
+.bgImage {
+    height: 900px;
+    background-image: url("assets/img-fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textMain {
+    font-size: 30px;
+    color: white;
+    border: 3px solid white;
+    background-color:#0ca18b;
+    opacity: 0.75;
+    border-radius: 5px;
+    text-align: center;
+    padding: 80px 40px;
+}
+
+.textWelcome, .containerRoute, .textAbout {
+    text-align: center;
+
+}
+
+.textWelcome h2, .containerRoute h2, .textAbout h2 {
+    text-transform: uppercase;
+    font-weight: lighter;
+    margin: 70px 0 30px;
+
+}
+
+.textWelcome p, .containerRoute p, .textAbout p {
+    margin: 20px 0;
+    font-weight: lighter;
+
+}
+
+.rooms {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+
+.rooms div {
+   margin: 0 20px 0;
+   border-bottom: 3px solid #42776f;
+}
+
+.rooms img {
+    width: 550px;
+    height: 350px;
+    
+}
+
+.rooms a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.iframeMap {
+    display: flex;
+    justify-content: center;
+
+}
+
+.containerAbout {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.containerAbout div {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    margin: 50px;
+    
+}
+
+.containerAbout img {
+    width: 150px;
+    height: 170px; 
+}
+
+.textAboutImages {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+}
+
+/* end main */
+
+
+
+
+
+/* footer */
+
+.containerFooter {
+    text-align: center;
+    background-color: #49997c;
+    color: white;
+}
+
+.contactFooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    text-align: center;
+    
+}
+
+.contactFooter a {
+    text-decoration: none;
+    color: white;
+}
+
+.footerTitle {
+    width: 200px;
+    text-align: left;
+}
+
+.footerAdress {
+    width: 300px;
+    
+}
+
+.footerCel {
+    width: 300px;
+}
+
+.footerBooking {
+    width: 200px;
+    
+}
+.contactFooter img {
+    vertical-align: middle;
+    
+}
+
+.copyright {
+    background-color: #49997c;
+    border-top: 1px solid #3f8e71;    
+    display: flex;
+    justify-content: center;
+    width: 1100px;
+    height: 100px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+
+
+/* end footer */

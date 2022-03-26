@@ -1,0 +1,66 @@
+.bgImageRoom img {
+    
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.containerSingleText, .containerCoupleText, .containerFamilyText  {
+    text-align: center;
+
+}
+
+.containerSingleText h1, .containerCoupleText h1, .containerFamilyText h1 {
+    text-transform: uppercase;
+    font-weight: lighter;
+    margin: 100px 0 30px;
+    border-top: 2px solid darkgray;
+    padding-top: 10px;
+
+}
+
+.containerSingleText p, .containerCoupleText p, .containerFamilyText p {
+    margin: 20px 0;
+    font-weight: lighter;
+
+}
+
+.containerSingleRoom, .containerCoupleRoom, .containerFamilyRoom {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+
+.imgSingleRoom, .imgCoupleRoom, .imgFamilyRoom {
+   margin: 0 5px 0;
+}
+
+.containerSingleRoom img, .containerCoupleRoom img, .containerFamilyRoom img {
+    width:600px;
+    height: 350px;   
+    object-fit: cover;
+}
+
+.titleList {
+    text-align: center;
+    font-weight: lighter;
+    margin: 70px 0;
+}
+
+.flexList ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+    margin: 20px 0 0 5%;
+    padding-bottom: 50px;
+
+}
+
+
+.flexList li {
+    width: 25%;
+    padding-bottom: 30px;
+}
+
